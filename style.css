@@ -4,7 +4,7 @@ font-family: 'Lato', sans-serif !important;
 
 }
 
-a:link { color: black;}
+a { color: black;}
 
 .airlogo {
   position: relative;
@@ -13,6 +13,7 @@ a:link { color: black;}
 
 h2,h3 {
   color: #666666;
+  font-weight: 700;
 }
 
 .topbar {
