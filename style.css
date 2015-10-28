@@ -11,9 +11,11 @@ a { color: black;}
   bottom: 25px;
 }
 
+h2 {
+  font-weight: 700;
+}
 h2,h3 {
   color: #666666;
-  font-weight: 700;
 }
 
 .topbar {
