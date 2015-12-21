@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script src="https://code.jquery.com/jquery.min.js">
+  </script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  </script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AirTale - About</title>
+  <style>
+  body {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+   background: -webkit-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+  /* IE10 */
+  background: -o-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+  /* Opera 11.10+ */
+  background: linear-gradient(45deg, #00c6ff 5%, #0072ff 175%);
+  color: #EEF;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.9em;
+}
+h2 {
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 400;
+}
+ul {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/*****
+Classes
+******/
+
+.headers {
+  margin-top: 5em; 
+}
+
+.logo-text {
+  margin-top: 1em;
+  float: left;
+  font-size: 1.3em;
+}
+
+.getit {
+  border: 2px white solid;
+  padding: 1em;
+  width: 150px;
+  margin:4em auto;
+  border-radius: 8px;
+}
+.icon {
+  background-repeat: no-repeat;
+  background-image: url('https://d13yacurqjgara.cloudfront.net/users/752550/screenshots/2276727/train_1x.png');
+  background-size: contain;
+  height: 250px;
+  background-position: center;
+  opacity: 0;
+}
+
+.menu-bar {
+  margin: 0 13%;
+  color: white;
+}
+
+.footer {
+  background-color: #000
+}
+
+.logo-img {
+  width: 128px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  margin: 0 auto;
+}
+
+.boxed {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding:0 1em;
+}
+
+.box {
+  border-bottom: 1px solid  black;
+}
+
+.sameheight {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  margin: 5% 0;
+}
+
+.opener {
+  margin: 10% 0;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.opener + div { 
+  margin: 3em 0
+}
+
+.mid { 
+  text-align: center;
+}
+
+.red {
+}
+
+.ok {
+  display: table;
+  height: 55px;
+  float: right;
+}
+
+.mailing {
+  //background-color: #0072ff;
+  padding: 2em 0;
+}
+
+.signupform {
+  margin: 0 auto;
+  width: 300px;
+}
+.signupform div button {
+   margin-top: 5px;
+}
+
+.footer {
+  background-color: white;
+  padding: 3em 0;
+  color: grey;
+}
+
+.footer-text:not(:last-child):after {
+  content: " • "
+}
+
+.team-title {
+  padding-top: 3em;
+  border-bottom: 2px solid white;
+  width: 150px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.team-pics {
+  padding: 5em 1em;
+}
+
+.profile {
+  margin: 1em 0;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 
+}
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid red">
+    <div class="row menu-bar">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="logo-text">AirTale</div>
+        <div class="ok">
+          <ul>
+            <li class="nav"><a href="tours">Tours</a>
+            </li>
+            <li class="nav"><a href="about">About</a>
+            </li>
+            <li class="nav"><a href="contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 headers">
+        <div class="text-center">
+          <img alt="AirTale" class="logo-img " src="https://dl.dropbox.com/s/lrxa0z31xyqh1p2/Oval%205%20%2B%20Line.png">
+        </div>
+        <h1>We're passionate adventurers</h1>
+        <h2>We built AirTale because we love to travel and explore places on our own terms.<h2>
+          <br>
+          <h3>With our technology packaged in a beautiful mobile app you will enjoy every step, every sound and every second spent exploring new exciting places</h3>
+      </div>
+    </div>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h4 class="team-title">The Team</h4>
+          </div>
+        </div>
+          <div class="row team-pics text-center">
+            <div class="col-lg-4 profile">
+              <img src="https://dl.dropbox.com/s/k4x0fp4kp3ho65t/luse.png" alt=""><p class="profile-name">Filippo</p>
+              <p>Business Berserker</p>
+            </div>
+            <div class="col-lg-4 profile">
+              <img src="https://dl.dropbox.com/s/49k6flfrxfofpso/orlie.png" alt="">
+              <p class="profile-name">Orlando</p>
+              <p>Backend Baklava</p>
+            </div>
+            <div class="col-lg-4 profile">
+              <img src="https://dl.dropbox.com/s/j8cdi879ziv319p/gianlu.png" alt="" class="">
+              <p class="profile-name">Gianluca </p>
+              <p>Mobile Magician</p>
+            </div>
+            </div>
+        
+                  <div class="row team-pics text-center">
+            <div class="col-lg-4 profile">
+              <img src="//placehold.it/150" alt="" class="img-circle">
+              <p class="profile-name"></p>
+              <p>Mobile Magician</p>
+            </div>
+            <div class="col-lg-4 profile">
+              <img src="//placehold.it/150" alt="" class="img-circle">
+              <p class="profile-name">Gianluca </p>
+              <p>Mobile Magician</p>
+            </div>
+            <div class="col-lg-4 profile">
+              <img src="//placehold.it/150" alt="" class="img-circle">
+              <p class="profile-name">Gianluca </p>
+              <p>Mobile Magician</p>
+            </div>
+            </div>
+        </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center mailing">
+        <div class="signupform">
+          <div class="form-group">
+            <label for="newsletter">Product news, Discounts and Updates? <br> Sign up to our newsletter:</label>
+            <input class="form-control" type="email" placeholder="your@email.com" id="newsletter">
+            <button class="btn btn-default" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <footer class="row footer">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <span class="footer-text">AirTale 2015</span>
+        <span class="footer-text">Facebook</span>
+        <span class="footer-text">Twitter</span>
+        <span class="footer-text">Terms of Service</span>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
