@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 
   <script src="https://code.jquery.com/jquery.min.js">
   </script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+  <link href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel=
+  "stylesheet" type="text/css">
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
   </script>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel=
+  'stylesheet' type='text/css'>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>AirTale</title>
   <style>
     body {
@@ -55,29 +59,29 @@
       display: inline-block;
     }
 
-/*****
-Classes
-******/
+  /*****
+  Classes
+  ******/
 
-.headers {
+  .headers {
   margin-top: 5em; 
-}
+  }
 
-.logo-text {
+  .logo-text {
   margin-top: 1em;
   float: left;
   font-size: 1.3em;
-}
+  }
 
-.getit {
+  .getit {
   border: 2px white solid;
   padding: 1em;
   width: 150px;
   margin:4em auto;
   border-radius: 8px;
-}
+  }
 
-.icon {
+  .icon {
   margin-top: 3em;
     }
   /*
@@ -87,198 +91,247 @@ Classes
   height: 250px;
   background-position: center;
   opacity: 0;
-}*/
+  }*/
 
-.menu-bar {
+  .menu-bar {
   margin: 0 13%;
   color: white;
-}
+  }
 
-.footer {
+  .footer {
   background-color: #000
-}
+  }
 
-.logo-img {
+  .logo-img {
   width: 128px;
   -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
   margin: 0 auto;
-}
+  }
 
-.boxed {
+  .boxed {
   width: 980px;
   margin: 0 auto;
-}
+  }
 
-.nav {
+  .nav {
   padding:0 1em;
-}
+  }
 
-.box {
+  @media screen and (max-width: 480px) {
+  .nav a { 
+    line-height: 63px;
+  }
+  .menu-bar {
+  margin: 0 1%;
+  color: white;
+  }
+  }
+    
+  .box {
   border-bottom: 1px solid  black;
-}
+  }
 
-.sameheight {
+  .sameheight {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
   margin: 5% 0;
-}
+  }
 
-.opener {
+  .opener {
   margin: 10% 0;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
-}
+  }
 
-.opener + div { 
+  .opener + div { 
   margin: 3em 0
-}
+  }
 
-.mid { 
+  .mid { 
   text-align: center;
-}
+  }
 
-.ok {
+  .ok {
   display: table;
   height: 55px;
   float: right;
-}
+  }
 
-.mailing {
+  .mailing {
   /*background-color: #0072ff;*/
   padding: 2em 0;
-}
+  }
 
-.signupform {
+  .signupform {
   margin: 0 auto;
   width: 300px;
-}
-.signupform div button {
+  }
+  .signupform div button {
    margin-top: 5px;
-}
+  }
 
-.footer {
+  .footer {
   background-color: white;
   padding: 3em 0;
   color: grey;
-}
+  }
 
-.footer-text:not(:last-child):after {
+  .footer-text:not(:last-child):after {
   content: " • "
-}
+  }
 
-.team-title {
+  .team-title {
   padding-top: 3em;
   border-bottom: 2px solid white;
   width: 150px;
   margin: 0 auto;
   font-weight: 600;
-}
+  }
 
-.team-pics {
+  .team-pics {
   padding: 5em 1em;
-}
+  }
 
-.profile {
+  .profile {
   margin: 1em 0;
-}
+  }
 
-.profile-name {
+  .profile-name {
   font-size: 16px;
   font-weight: 
-}
+  }
 
-.opener-b {
+  .opener-b {
   margin: 10% 0;
   font-size: 20px;
   font-weight: 300;
   text-align: left;
-}
+  }
 
 
-.nav {
-	padding:0 1em;
-	padding:0 1em;
-	color: white;
-}
+  .nav {
+    padding:0 1em;
+    padding:0 1em;
+    color: white;
+  }
 
-.nav a {
+  .nav a {
   color: white;
-}
+  }
 
-.nav a:visited {
+  .nav a:visited {
   color: white;
-}
-.logo-text a,a:hover,a:visited { text-decoration: none; color: white}
+  }
+  .logo-text a,a:hover,a:visited { text-decoration: none; color: white}
   </style>
 </head>
 
 <body>
-  <div class="container-fluid red">
+  <div class="container-fluid">
     <div class="row menu-bar">
       <div class="col-xs-12 col-lg-8 col-lg-offset-2">
-        <div class="logo-text"><a href="//airtale.eu">AirTale</a>
+        <div class="logo-text">
+          <a href="//airtale.eu">AirTale</a>
         </div>
+
+
         <div class="ok">
           <ul>
-            <li class="nav"><a href="tours">Tours</a>
+            <li class="nav">
+              <a href="tours">Tours</a>
             </li>
-            <li class="nav"><a href="about">About</a>
+
+
+            <li class="nav">
+              <a href="about">About</a>
             </li>
-            <li class="nav"><a href="contact">Contact Us</a>
+
+
+            <li class="nav">
+              <a href="contact">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+
+
   <div class="container">
     <div class="row">
       <div class="col-lg-12 headers">
-        <div class="text-center">
-          <img alt="AirTale" class="logo-img " src="https://dl.dropbox.com/s/lrxa0z31xyqh1p2/Oval%205%20%2B%20Line.png">
+        <div class="text-center"><img alt="AirTale" class="logo-img" src=
+        "https://dl.dropbox.com/s/lrxa0z31xyqh1p2/Oval%205%20%2B%20Line.png">
         </div>
+
+
         <h1>Tour guiding re-imagined</h1>
-        <h2>AirTale lets you explore new places <br> through immersive
-                stories<br>
-                  at your own pace</h2>
+
+
+        <h2>AirTale lets you explore new places<br>
+        through immersive stories<br>
+        at your own pace</h2>
         <!--<div class="col-lg-12 text-center">
           <div class="getit ">GET IT NOW</div>
           > See the video
         </div>-->
       </div>
     </div>
+
+
     <div class="row">
       <div class="col-lg-6 icon">
-        <div class="text-center">
-          <img src="https://dl.dropbox.com/s/kiayzv567rcwe2k/mobile_map.png" alt="" width="250" class="">
+        <div class="text-center"><img alt="" class="" src=
+        "https://dl.dropbox.com/s/kiayzv567rcwe2k/mobile_map.png" width="250">
         </div>
       </div>
+
+
       <div class="col-lg-6 opener">
-        <p>AirTale is revolutionizing the tour guide industry, by transforming city tours into fully immersive, engaging and powerful learning experiences powered by your mobile device.</p>
+        <p>AirTale is revolutionizing the tour guide industry, by transforming
+        city tours into fully immersive, engaging and powerful learning
+        experiences powered by your mobile device.</p>
       </div>
     </div>
+
+
     <div class="row">
       <hr class="hidden-lg">
+
+
       <div class="col-lg-6 icon">
-        <div class="text-center">
-          <img src="https://dl.dropbox.com/s/2e8es0pj6n0s4jk/fantasy.png" alt="" height="250">
+        <div class="text-center"><img alt="" height="250" src=
+        "https://dl.dropbox.com/s/2e8es0pj6n0s4jk/fantasy.png">
         </div>
       </div>
+
+
       <div class="col-lg-6 opener">
-        <p>Designed for those who crave flexibility, freedom and excitement when discovering new cities or beautiful places, AirTale offers historically-accurate audio stories</p>
+        <p>Designed for those who crave flexibility, freedom and excitement
+        when discovering new cities or beautiful places, AirTale offers
+        historically-accurate audio stories</p>
       </div>
     </div>
+
+
     <div class="row">
       <hr class="hidden-lg">
+
+
       <div class="col-lg-6 icon">
-        <div class="text-center"><img src="https://dl.dropbox.com/s/e0uogre39km8hu8/peterpan.png?dl=0" alt="" height="250">
+        <div class="text-center"><img alt="" height="250" src=
+        "https://dl.dropbox.com/s/e0uogre39km8hu8/peterpan.png?dl=0">
         </div>
       </div>
+
+
       <div class="col-lg-6 opener">
-        <p>Each audio story is led by a fictional, engaging character from the story’s era.
-          <br> Live and breathe different eras of your chosen city’s history at the touch of a button.</p>
+        <p>Each audio story is led by a fictional, engaging character from the
+        story’s era.<br>
+        Live and breathe different eras of your chosen city’s history at the
+        touch of a button.</p>
       </div>
     </div>
     <!--<div class="row">
@@ -294,31 +347,34 @@ Classes
     </div>-->
   </div>
 
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center mailing">
         <div class="signupform">
-          <form class="form-group" action="https://docs.google.com/forms/d/1sTphZIDufUZ5w73hXvDMhrqboCVaVDsQQhucMBy2xFI/formResponse" method="POST">
-            <label for="newsletter">Product news, Discounts and Updates?
-              <br> Sign up to get emails directly from our founders:</label>
-            <input class="form-control" type="email" placeholder="your@email.com" id="newsletter" name="entry.573955140">
-            <br>
+          <form action=
+          "https://docs.google.com/forms/d/1sTphZIDufUZ5w73hXvDMhrqboCVaVDsQQhucMBy2xFI/formResponse"
+          class="form-group" method="post">
+            <label for="newsletter">Product news, Discounts and Updates?<br>
+            Sign up to get emails directly from our founders:</label>
+            <input class="form-control" id="newsletter" name="entry.573955140"
+            placeholder="your@email.com" type="email"><br>
             <button class="btn btn-default" type="submit">Submit</button>
           </form>
         </div>
       </div>
     </div>
   </div>
+
+
   <div class="container-fluid">
     <footer class="row footer">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <span class="footer-text">AirTale 2015</span>
-        <span class="footer-text">Facebook</span>
-        <span class="footer-text">Twitter</span>
+        <span class="footer-text">AirTale 2015</span> <span class=
+        "footer-text">Facebook</span> <span class="footer-text">Twitter</span>
         <span class="footer-text">Terms of Service</span>
       </div>
     </footer>
   </div>
 </body>
-
 </html>
