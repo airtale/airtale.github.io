@@ -15,202 +15,214 @@
   <style>
     body {
     font-family: "Lato", sans-serif;
-}
+    }
 
-body {
-   background: -webkit-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
-  /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
-  /* IE10 */
-  background: -o-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
-  /* Opera 11.10+ */
-  background: linear-gradient(45deg, #00c6ff 5%, #0072ff 175%);
-  color: #EEF;
-}
+    body {
+       background: -webkit-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+      /* Chrome 10+, Saf5.1+ */
+      background: -moz-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+      /* FF3.6+ */
+      background: -ms-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+      /* IE10 */
+      background: -o-linear-gradient(45deg, #00c6ff 15%, #0072ff 175%);
+      /* Opera 11.10+ */
+      background: linear-gradient(45deg, #00c6ff 5%, #0072ff 175%);
+      color: #EEF;
+    }
 
-h1 {
-  font-weight: 400;
-  text-align: center;
-  font-size: 2.9em;
-}
-h2 {
-  text-align: center;
-  font-weight: 300;
-}
+    h1 {
+      font-weight: 400;
+      text-align: center;
+      font-size: 2.9em;
+    }
+    h2 {
+      text-align: center;
+      font-weight: 300;
+    }
 
-h3 {
-  text-align: center;
-  font-weight: 400;
-}
+    h3 {
+      text-align: center;
+      font-weight: 400;
+    }
 
-ul {
-  vertical-align:middle;
-  display: table-cell;
-}
+    ul {
+      vertical-align:middle;
+      display: table-cell;
+    }
 
-li {
-  list-style: none;
-  display: inline-block;
-}
+    li {
+      list-style: none;
+      display: inline-block;
+    }
 
-/*****
-Classes
-******/
+  /*****
+  Classes
+  ******/
 
-.headers {
+  .headers {
   margin-top: 5em; 
-}
+  }
 
-.logo-text {
+  .logo-text {
   margin-top: 1em;
   float: left;
   font-size: 1.3em;
-}
+  }
 
-.getit {
+  .getit {
   border: 2px white solid;
   padding: 1em;
   width: 150px;
   margin:4em auto;
   border-radius: 8px;
-}
+  }
 
-/*.icon {
+  .icon {
+  margin-top: 3em;
+    }
+  /*
   background-repeat: no-repeat;
   background-image: url('https://d13yacurqjgara.cloudfront.net/users/752550/screenshots/2276727/train_1x.png');
   background-size: contain;
   height: 250px;
   background-position: center;
   opacity: 0;
-}*/
+  }*/
 
-.menu-bar {
+  .menu-bar {
   margin: 0 13%;
   color: white;
-}
+  }
 
-.footer {
+  .footer {
   background-color: #000
-}
+  }
 
-.logo-img {
+  .logo-img {
   width: 128px;
   -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
   margin: 0 auto;
-}
+  }
 
-.boxed {
+  .boxed {
   width: 980px;
   margin: 0 auto;
-}
+  }
 
-.nav {
+  .nav {
   padding:0 1em;
-}
+  }
 
-.box {
+  @media screen and (max-width: 480px) {
+  .nav a { 
+    line-height: 63px;
+  }
+  .menu-bar {
+  margin: 0 1%;
+  color: white;
+  }
+  }
+    
+  .box {
   border-bottom: 1px solid  black;
-}
+  }
 
-.sameheight {
+  .sameheight {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
   margin: 5% 0;
-}
+  }
 
-.opener {
+  .opener {
   margin: 10% 0;
   font-size: 20px;
   font-weight: 300;
-  text-align: right;
-}
-
-.opener + div { 
-  margin: 3em 0
-}
-
-.mid { 
   text-align: center;
-}
+  }
 
-.red {
-}
+  .opener + div { 
+  margin: 3em 0
+  }
 
-.ok {
+  .mid { 
+  text-align: center;
+  }
+
+  .ok {
   display: table;
   height: 55px;
   float: right;
-}
+  }
 
-.mailing {
-  //background-color: #0072ff;
+  .mailing {
+  /*background-color: #0072ff;*/
   padding: 2em 0;
-}
+  }
 
-.signupform {
+  .signupform {
   margin: 0 auto;
   width: 300px;
-}
-.signupform div button {
+  }
+  .signupform div button {
    margin-top: 5px;
-}
+  }
 
-.footer {
+  .footer {
   background-color: white;
   padding: 3em 0;
   color: grey;
-}
+  }
 
-.footer-text:not(:last-child):after {
+  .footer-text:not(:last-child):after {
   content: " • "
-}
+  }
 
-.team-title {
+  .team-title {
   padding-top: 3em;
   border-bottom: 2px solid white;
   width: 150px;
   margin: 0 auto;
   font-weight: 600;
-}
+  }
 
-.team-pics {
+  .team-pics {
   padding: 5em 1em;
-}
+  }
 
-.profile {
+  .profile {
   margin: 1em 0;
-}
+  }
 
-.profile-name {
+  .profile-name {
   font-size: 16px;
   font-weight: 
-}
+  }
 
-.opener-b {
+  .opener-b {
   margin: 10% 0;
   font-size: 20px;
   font-weight: 300;
   text-align: left;
-}
+  }
 
 
-.nav {
-	padding:0 1em;
-	padding:0 1em;
-	color: white;
-}
+  .nav {
+    padding:0 1em;
+    padding:0 1em;
+    color: white;
+  }
 
-.nav a {
+  .nav a {
   color: white;
-}
+  }
 
-.nav a:visited {
+  .nav a:visited {
   color: white;
-}
-    
+  }
+  .logo-text a,
+  .logo-text a:hover,
+  .logo-text a:visited { text-decoration: none; color: white}
   </style>
 </head>
 
@@ -241,7 +253,11 @@ Classes
         <h1>We're passionate adventurers</h1>
         <h2>We built AirTale because we love to travel and explore places on our own terms.<h2>
           <br>
-          <h3>With our technology packaged in a beautiful mobile app you will enjoy every step, every sound and every second spent exploring new exciting places</h3>
+          <h3>AirTale uses ready available technology packaged in a beautiful mobile app.</h3>
+          <h3>Exploring through an engaging voice-guide will ensure that every step, every sound and every second spent exploring new places will be fun</h3>
+          <h3>
+            Your inner-explorer mood can now be triggered by your finger tips.
+          </h3>
       </div>
     </div>
         <div class="row text-center">
@@ -251,22 +267,23 @@ Classes
         </div>
           <div class="row team-pics text-center">
             <div class="col-lg-4 profile">
-              <img src="https://dl.dropbox.com/s/k4x0fp4kp3ho65t/luse.png" alt=""><p class="profile-name">Filippo</p>
+              <img src="https://dl.dropbox.com/s/k4x0fp4kp3ho65t/luse.png" alt="Filippo" height="150"><p class="profile-name">Filippo</p>
               <p>Business Berserker</p>
             </div>
             <div class="col-lg-4 profile">
-              <img src="https://dl.dropbox.com/s/49k6flfrxfofpso/orlie.png" alt="">
+              <img src="https://dl.dropbox.com/s/49k6flfrxfofpso/orlie.png" alt="Orlando" height="150">
               <p class="profile-name">Orlando</p>
               <p>Backend Baklava</p>
             </div>
             <div class="col-lg-4 profile">
-              <img src="https://dl.dropbox.com/s/j8cdi879ziv319p/gianlu.png" alt="" class="">
+              <img src="https://dl.dropbox.com/s/j8cdi879ziv319p/gianlu.png" alt="Gianluca" height="150">
               <p class="profile-name">Gianluca </p>
               <p>Mobile Magician</p>
             </div>
             </div>
         
             <div class="row team-pics text-center">
+              <H2>And a few more behind the scenes...</H2>
             </div>
         </div>
 
@@ -275,22 +292,27 @@ Classes
     <div class="row">
       <div class="col-lg-12 text-center mailing">
         <div class="signupform">
-          <div class="form-group">
-            <label for="newsletter">Product news, Discounts and Updates? <br> Sign up to our newsletter:</label>
-            <input class="form-control" type="email" placeholder="your@email.com" id="newsletter">
+          <form action=
+          "https://docs.google.com/forms/d/1sTphZIDufUZ5w73hXvDMhrqboCVaVDsQQhucMBy2xFI/formResponse"
+          class="form-group" method="post">
+            <label for="newsletter">Product news, Discounts and Updates?<br>
+            Sign up to get emails directly from our founders:</label>
+            <input class="form-control" id="newsletter" name="entry.573955140"
+            placeholder="your@email.com" type="email"><br>
             <button class="btn btn-default" type="submit">Submit</button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
+      
   <div class="container-fluid">
     <footer class="row footer">
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <span class="footer-text">AirTale 2015</span>
-        <span class="footer-text">Facebook</span>
-        <span class="footer-text">Twitter</span>
-        <span class="footer-text">Terms of Service</span>
+        <span class="footer-text"><a href="">Facebook</a></span>
+        <span class="footer-text"><a href="">Twitter</a></span>
+        <span class="footer-text"><a href="">Terms of Service</a></span>
       </div>
     </footer>
   </div>
